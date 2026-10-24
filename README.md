@@ -58,17 +58,5 @@ Review the dataset's original license and terms before redistributing the CSV.
 - G1/G2 usefulness depends on the intended prediction time.
 - No external validation; results should not be generalized without further testing.
 
-## Suggested repository structure
-```text
-student-performance-prediction/
-├── README.md
-├── Student_Performance_Prediction_Report.pdf
-├── student_performance_prediction.ipynb
-├── student-mat.csv        # include only if redistribution is permitted
-├── requirements.txt
-└── .gitignore
-```
-Update the notebook filename to match the actual file you upload.
-
 ## Run
 Install dependencies with `pip install -r requirements.txt`, then open the notebook in JupyterLab, Jupyter Notebook, or VS Code and run cells from top to bottom.
